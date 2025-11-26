@@ -16,3 +16,24 @@
   font-family: var(--font-base);
   font-variation-settings: "wght" var(--font-base-weight);
 }
+
+.header {
+  width: 700px;
+  height: 368px;
+  border: #000 solid 2px;
+  font-family: var(--font-accent);
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header h1 {
+  font-size: 65px;
+}
+
+.header h2 {
+  font-weight: var(--font-accent-weight);
+}
