@@ -15,8 +15,6 @@
   min-block-size: 100dvb;
   font-family: var(--font-base);
   font-variation-settings: "wght" var(--font-base-weight);
-  display: flex;
-  justify-content: center;
 }
 
 .header {
@@ -50,4 +48,65 @@
 
 .header-text h2 {
   font-weight: var(--font-accent-weight);
+}
+
+.main {
+  position: absolute;
+  top: 568px;
+  left: 372px;
+  right: 372px;
+  background-color: #fff;
+}
+
+.card-article {
+  border: #000 solid 2px;
+}
+
+.card-header {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.card-img {
+  border-top: #000 solid 2px;
+  border-bottom: #000 solid 2px;
+  width: 696px;
+  height: 696px;
+}
+
+.card-paragraph {
+  font-size: 18px;
+  padding-left: 25px;
+  line-height: 21px;
+}
+
+.card-paragraph:last-of-type {
+  margin-top: 27px;
+}
+
+.reaction-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: right;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  font-family: var(--font-accent);
+  font-size: 14px;
+  line-height: 90%;
+}
+
+.btn-reaction {
+  background-color: transparent;
+}
+
+.btn-heart {
+  border: none;
+}
+
+.btn-like {
+  padding: 12.5px 37px;
+}
+
+.button__text {
+
 }
