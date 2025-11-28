@@ -60,6 +60,7 @@
 
 .card-article {
   border: #000 solid 2px;
+  margin-bottom: 52px;
 }
 
 .card-header {
@@ -91,7 +92,6 @@
   right: 25px;
   font-family: var(--font-accent);
   font-size: 14px;
-  text-transform: uppercase;
   color: #000;
   text-shadow: 
     -1px -1px 0 #000,
