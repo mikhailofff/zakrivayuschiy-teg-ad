@@ -61,6 +61,7 @@
 .card-article {
   border: #000 solid 2px;
   margin-bottom: 52px;
+  font-family: var(--font-base);
 }
 
 .card-header {
@@ -106,6 +107,7 @@
 .card-paragraph {
   font-size: 18px;
   padding-left: 25px;
+  padding-right: 25px;
   line-height: 21px;
 }
 
