@@ -1,9 +1,16 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --font-base: 'Inter', 'Open Sans';
-    --font-base-weight: 400;
-    --font-base-bold-weight: 700;
-    --font-accent: 'PressStart2P';
-    --font-accent-weight: 400;
-    --font-accent-bold-weight: 700;
+  --main-font: 'Inter';
+  --accent-font: 'PressStart2P-Regular';
+  --bg-color: #fff;
+  --color: #000;
+  --stroke-color: #fff;
+  --heart-color: red;
+  --border-color: #000;
+  --linear-gradient-first: #e7e7e7;
+  --mix-blend-color: #fff;
+  --linear-gradient-second: #1a1a1a;
+  --accent-color: #000;
+  --border-color: #000;
+  --header-weight: 700;
+  --text-weight: 400;
 }
